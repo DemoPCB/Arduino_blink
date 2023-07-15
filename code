@@ -1,0 +1,17 @@
+// www.ogrenciproje.com tarafından haırlanmıştır.
+
+
+const int led=13;                   // Led Arduinonun 13 nolu pinine bağlı.
+
+void setup() {
+
+  pinMode(led , OUTPUT);            // Led pini Çıkış olarak tanımlandı.
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(led, HIGH);          // Led pininde çıkış aktif edildi.
+  delay(1000);                      // 1000 milisaniye bekleme.
+  digitalWrite(led, LOW);           // Led pininde çıkış kapatıldı.
+  delay(1000);                      // 1000 milisaniye bekleme.
+}
